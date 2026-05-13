@@ -1,0 +1,19 @@
+{
+  "name": "javascript101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatolucas/JavaScript101.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/renatolucas/JavaScript101/issues"
+  },
+  "homepage": "https://github.com/renatolucas/JavaScript101#readme"
+}
