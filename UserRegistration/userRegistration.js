@@ -1,43 +1,4 @@
-/* 
-Mini-projeto 1 — Sistema de cadastro de usuários
-
-Crie um arquivo:
-
-cadastroUsuarios.js
-
-Você terá um array:
-
-const usuarios = [];
-
-Crie uma função:
-
-cadastrarUsuario(nome, idade, email)
-
-Regras:
-
-Nome deve ter pelo menos 3 caracteres.
-Idade deve ser maior ou igual a 18.
-Email deve conter "@".
-Se os dados forem inválidos, exiba uma mensagem de erro.
-Se forem válidos, crie um objeto usuário e adicione no array usuarios.
-Cada usuário deve ter:
-nome
-idade
-email
-ativo
-
-Depois cadastre pelo menos 3 usuários.
-
-Exemplo:
-
-cadastrarUsuario("Renato", 29, "renato@email.com");
-cadastrarUsuario("Ana", 17, "ana@email.com");
-cadastrarUsuario("João", 25, "joao@email.com");
-
-Depois imprima todos os usuários cadastrados.
-
-*/
-
+//mini project 1
 const users = [];
 
 function userRegistration(name, age, email){

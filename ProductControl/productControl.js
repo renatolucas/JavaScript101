@@ -1,41 +1,4 @@
-/*
-Mini-projeto 2 — Controle de produtos
-
-Crie um arquivo:
-
-controleProdutos.js
-
-Crie um array de produtos:
-
-const produtos = [];
-
-Crie funções:
-
-cadastrarProduto(nome, preco, categoria)
-listarProdutos()
-calcularTotalEstoque()
-listarProdutosPorCategoria(categoria)
-
-Regras:
-
-Produto deve ser um objeto.
-Preço deve ser maior que zero.
-Nome deve ter pelo menos 2 caracteres.
-Categoria não pode ser vazia.
-Use for para percorrer os produtos.
-Use if para validar dados.
-
-Exemplo de uso:
-
-cadastrarProduto("Notebook", 3000, "eletrônico");
-cadastrarProduto("Mouse", 100, "acessório");
-cadastrarProduto("Teclado", 200, "acessório");
-
-listarProdutos();
-calcularTotalEstoque();
-listarProdutosPorCategoria("acessório"); 
-*/
-
+//mini project 2
 const products = [];
 
 function productRegister(name, price, category){

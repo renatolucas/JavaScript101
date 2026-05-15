@@ -1,7 +1,4 @@
 //Exercício 23 — Shadowing
-
-//Analise:
-
 const nome = "Global";
 
 function mostrarNome() {

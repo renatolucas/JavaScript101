@@ -1,25 +1,4 @@
-/*
-Exercício 20 — Array de objetos
-
-Crie um array de produtos:
-
-const produtos = [
-  { name: "Notebook", price: 3000, category: "eletrônico" },
-  { name: "Mouse", price: 100, category: "acessório" },
-  { name: "Teclado", price: 200, category: "acessório" },
-  { name: "Monitor", price: 1200, category: "eletrônico" }
-];
-
-Faça:
-
-Imprima o name de todos os produtos.
-Some o preço total dos produtos.
-Imprima apenas os produtos da category "acessório".
-Imprima apenas produtos com preço maior que 500.
-
-Use for e if.
-*/
-
+//Exercise 20
 let totalPrice = 0;
 
 const products = [
