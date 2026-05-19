@@ -10,8 +10,13 @@ const user = {
   email: "renato@email.com"
 };
 
-if(validator.nameValidation(user.name) && validator.ageValidation(user.age) && validator.emailValidation(user.email)){
-    console.log("Valid user");
-}else {
-    console.log("Invalid user");
+const isValidUser =
+  validator.validateName(user.name) &&
+  validator.validateAge(user.age) &&
+  validator.validateEmail(user.email);
+
+if (isValidUser) {
+  console.log("Valid user");
+} else {
+  console.log("Invalid user");
 }
